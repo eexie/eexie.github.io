@@ -380,14 +380,14 @@ figcaption {
 }
 
 .navigation-item {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding: 9px 20px;
   opacity: 0.6;
   font-family: Rubik, sans-serif;
   font-size: 12px;
   line-height: 20px;
   font-weight: 500;
   letter-spacing: 1px;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -707,10 +707,10 @@ figcaption {
 }
 
 .footer-wrap {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 40px 50px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -771,7 +771,7 @@ figcaption {
   line-height: 20px;
   letter-spacing: 1px;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .footer-item:hover {
@@ -1118,7 +1118,6 @@ figcaption {
 }
 
 .body {
-  background-color: #f3f3f3;
   cursor: auto;
 }
 
