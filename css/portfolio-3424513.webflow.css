@@ -1318,6 +1318,26 @@ figcaption {
   text-decoration: none;
 }
 
+.link-block-2:hover {
+  background-color: #5d7c6d;
+  opacity: 1;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link-block-2:focus {
+  background-color: #5d7c6d;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link-block-2:visited {
+  background-color: transparent;
+  background-clip: border-box;
+}
+
 @media screen and (max-width: 991px) {
   .styleguide-block {
     text-align: center;
