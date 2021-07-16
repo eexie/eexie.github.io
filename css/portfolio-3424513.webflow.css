@@ -1097,7 +1097,6 @@ figcaption {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  color: #494949;
   text-align: left;
 }
 
@@ -1137,7 +1136,7 @@ figcaption {
   overflow: hidden;
   height: 300px;
   border-radius: 10px;
-  background-image: url("../images/Screen%20Shot%202021-06-02%20at%2012.51.31%20PM.png");
+  background-image: url("../images/cognite-thumbnail.png");
   background-position: 50% 50%;
   background-size: cover;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
@@ -1162,6 +1161,23 @@ figcaption {
 
 .work-thumbnail.ada {
   background-image: url("../images/Frame%201%20(1).png");
+}
+
+.work-thumbnail.misc {
+  background-image: url("../images/dun_worry_it_s_ketchup_by_eexie_d7kqlvv-fullview.jpeg");
+  background-position: 50% 20%;
+}
+
+.work-thumbnail.ixl {
+  background-image: url("../images/Frame%20131.png");
+  cursor: auto;
+}
+
+.work-thumbnail.ixl:hover {
+  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .div-block-6 {
@@ -1285,6 +1301,10 @@ figcaption {
 
 .heading-5.thumbnail-title.thumbnail-details {
   text-decoration: none;
+}
+
+.heading-5.thumbnail-details {
+  font-weight: 500;
 }
 
 .thumbnail-title.heading-5 {
@@ -1749,6 +1769,10 @@ figcaption {
     font-size: 26px;
   }
 
+  .image-4.project-image {
+    max-width: 42vw;
+  }
+
   .image-5 {
     box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.13);
   }
@@ -1986,6 +2010,18 @@ figcaption {
 
   .image-4.project-image {
     max-width: 80vw;
+  }
+
+  .grid-2 {
+    display: block;
+  }
+
+  .section-7 {
+    display: block;
+  }
+
+  .grid-3 {
+    display: block;
   }
 }
 
