@@ -1253,7 +1253,8 @@ figcaption {
 }
 
 .project-banner.ada {
-  background-image: url("../images/Frame%204.png");
+  background-image: url("../images/Frame%20132.png");
+  background-position: 50% 20%;
 }
 
 .container-3 {
@@ -1495,6 +1496,10 @@ figcaption {
 .grid-3 {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.top {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
