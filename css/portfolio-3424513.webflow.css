@@ -1252,9 +1252,10 @@ figcaption {
 }
 
 .grid {
-  margin-top: 68px;
-  -ms-grid-columns: 0.5fr 0.5fr 0.5fr;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  -ms-grid-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -1369,6 +1370,10 @@ figcaption {
   grid-template-rows: auto;
 }
 
+.section-5.project-section {
+  margin-top: 40px;
+}
+
 .image-4 {
   max-width: 80vw;
   margin-right: auto;
@@ -1448,6 +1453,10 @@ figcaption {
 
 .image-7 {
   box-shadow: none;
+}
+
+.intro-section {
+  font-size: 15px;
 }
 
 @media screen and (max-width: 991px) {
