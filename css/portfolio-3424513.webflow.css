@@ -291,6 +291,11 @@ figcaption {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
   font-family: Rubik, sans-serif;
 }
 
@@ -303,6 +308,10 @@ figcaption {
 .section.project-section {
   padding-right: 30px;
   padding-left: 30px;
+}
+
+.section.styleguide-block {
+  display: none;
 }
 
 .button {
@@ -1449,6 +1458,23 @@ figcaption {
 
 .intro-section {
   font-size: 15px;
+}
+
+.section-7 {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-3 {
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (max-width: 991px) {
